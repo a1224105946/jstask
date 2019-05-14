@@ -1,6 +1,7 @@
 // 定义全局变量
 var div = document.getElementsByTagName("div");
 var btn = document.getElementsByTagName("button");
+var dingshiqi;
 
 
 // 定义主要使用的函数
@@ -48,8 +49,6 @@ btn[0].onclick = function () {
         btn[0].className = "orange"
         // btn被点了之后替换类名 orange
         // 这里css设置了orange的颜色  等于用js写个checked效果
-        clearInterval(dingshiqi);
-        var dingshiqi;
         dingshiqi = setInterval("num()", 1000);
         // 设置定时器
     }
@@ -58,7 +57,7 @@ btn[0].onclick = function () {
 btn[1].onclick = function () {
     clearInterval(dingshiqi);
     btn[0].className = "";
-    for (var i = 0; i < oli.length; i++) {
+    for (var i = 0; i < div.length; i++) {
         div[i].style.background = "#ffa500";
     }
 }
