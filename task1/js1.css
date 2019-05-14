@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  font-size: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+header div {
+  display: inline-block;
+  width: 27vw;
+  height: 27vw;
+  margin: 2vw;
+  background-color: orange;
+  border-radius: 2vw;
+}
+
+button {
+  display: block;
+  width: 100%;
+  height: 40PX;
+  margin-top: 10px;
+  border: 1px solid #ffa500;
+  border-radius: 5px;
+  outline: none;
+  background: #fff;
+  color: #ffa500;
+}
+.orange {
+  color: #fff;
+  background: #ffa500;
+}

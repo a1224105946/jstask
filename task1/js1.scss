@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    font-size: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    div {
+
+        display: inline-block;
+        width: 27vw;
+        height: 27vw;
+        margin: 2vw;
+        background-color: orange;
+        border-radius: 2vw;
+    }
+}
+button{
+    width: 80%;
+    margin: 20px 10%;
+    height: 40px;
+    text-decoration: none;
+    color: orange;
+    background-color: aliceblue;
+    border:1px solid orange;
+    cursor: pointer;
+}
