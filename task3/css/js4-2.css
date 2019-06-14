@@ -1,0 +1,147 @@
+body {
+    background-color: #f0f0f0;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    height: 50px;
+    background-color: #29bde0;
+    font-size: 17px;
+    padding: 0 30px;
+    color: #f0f0f0;
+    z-index: 999;
+}
+
+main {
+    width: 95%;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 75px;
+    overflow: hidden;
+    font-size: 15px;
+}
+
+.box {
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #c9c9c9;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.daynum{
+    line-height: 43px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    color: #29bde0;
+    border: 1px solid #c9c9c9;
+    border-left: 0;
+    border-right: 0;
+}
+.daymain{
+    border: 1px solid #c9c9c9;
+    margin-left: 30px;
+}
+.day{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.imgmoon{
+    position: absolute;
+    left: -16px;
+    padding: 16px;
+    background-color: #fff;
+    background-image: url(../image/task4-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imgsun{
+    position: absolute;
+    left: -16px;
+    padding: 16px;
+    background-color: #fff;
+    background-image: url(../image/task4-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.triangle{
+    width: 0;
+    height: 0;
+    border: 19px solid #29bde0;
+    border-top:19px solid #fff;
+    border-left: 19px solid #fff;
+    border-bottom:19px solid #fff;
+}
+.daybox{
+    cursor: pointer;
+    height: 38px;
+    width: 80%;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #29bde0;
+}
+.addpart{
+    width: 100%;
+    margin: 5px 0;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    color: #b40606;
+}
+.color{
+    background-color: #333!important;
+}
+.bordercolor{
+    border-right-color: #333!important;
+}
+
+
+
+footer {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    background-color: #29bde0;
+}
+
+.footerend {
+    width: 40%;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    font-weight: 700;
+    color: #fff;
+    background-color: red;
+    cursor: pointer;
+}
+
+.footerlog {
+    width: 40%;
+    height: 45px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    font-weight: 700;
+    color: #fff;
+    background-color: orange;
+    cursor: pointer;
+}

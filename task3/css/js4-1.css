@@ -1,0 +1,150 @@
+body {
+    background-color: #29bde0 !important;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    font-size: 18px;
+    z-index: 1;
+    background-color: #29bde0 !important;
+}
+
+.headertop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 0 25px;
+}
+
+.headermid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    background-color: #b9e9f5;
+    color: black;
+    margin-left: 2px;
+    padding: 0 20px 0 40px;
+    font-size: 13px;
+}
+
+.headerbottom {
+    height: 35px;
+}
+
+.sanjiao {
+    margin: 0 0 0 40px;
+    width: 4px;
+    border-top: 8px solid #b9e9f5;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+}
+
+.wenzi {
+    margin: 5px 0 0 30px;
+    font-size: 15px;
+
+}
+
+/* main */
+main {
+    display: flex;
+    flex-wrap: wrap;
+
+    margin: 175px 0 50px 0;
+    width: 100vw;
+}
+
+.div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: calc(100vw / 3);
+    height: calc(100vw / 3);
+    cursor: pointer;
+}
+
+.square {
+    margin: 0 5vw;
+    width: 21.5vw;
+    height: 21.5vw;
+    border: 3px solid white;
+    display: flex;
+    flex-direction: column;
+}
+
+.squaretop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 17.5vw;
+    background-color: #f5c97b;
+    font-size: 17px;
+}
+
+.squarebtm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 4vw;
+    background-color: #83b09a;
+    color: #fff;
+    font-size: 11px;
+}
+
+.number {
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+}
+
+.hover {
+    margin: 2vw calc(((100vw/3) - 5vw)/2);
+    width: 5vw;
+    height: 5vw;
+    background: url(../image/knife.png) no-repeat 0 0/cover;
+    opacity: 0;
+}
+
+
+/* main */
+footer {
+    position: fixed;
+    bottom: 0;
+    height: 100px;
+    width: 100vw;
+    background-color: #29bde0 !important;
+    cursor: pointer;
+}
+
+.wire {
+    height: 2px;
+    background-color: #ffffff;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 14px calc((100% - 200px) / 2);
+    width: 200px;
+    height: 70px;
+    background-color: #fbb435;
+    font-size: 21px;
+    color: #fff;
+    z-index: 1;
+}
+
+.disable {
+    pointer-events: none;
+    cursor: pointer;
+    
+}

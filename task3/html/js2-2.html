@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>js2-2</title>
+    <link rel="stylesheet" href="../css/js2-2.css">
+</head>
+
+<body>
+    <header>
+        <button onclick="location='js2-1.html'"></button>
+    </header>
+    <main>
+        <h2>玩家配比</h2>
+        <div class="ratio">
+            <div><i class="icon-killer"></i>&emsp;杀手&nbsp;<span id="KILLER">2</span>&nbsp;人</div>
+            <div><i class="icon-people"></i>&emsp;平民&nbsp;<span id="PEOPLE">6</span>&nbsp;人</div>
+        </div>
+        <div class="slider">
+            <div class="subtract"></div>
+            <input type="range" name="slider" value="8" min="4" max="18">
+            <div class="add"></div>
+        </div>
+        <div class="numberimport">
+            <strong>请输入玩家数量</strong>&nbsp;
+            <input type="text" name="INPUT" value="8" maxlength="2">
+            &nbsp;<span>玩家数量为4-18</span>
+        </div>
+    </main>
+    <footer>
+        <button onclick="jump()">去发牌</button>
+    </footer>
+    <script src="../js/js2-2.js"></script>
+</body>
+
+</html>
