@@ -30,11 +30,13 @@ for (let i = 0; i < arr.length; i++) {
 // 根据跳转次数 修改样式 
 if (journal.length !== 1) {
     if (click == 0) {
-        $(".headermid span").html("杀手开杀");
-        $(".wenzi").html("天黑请闭眼，杀手睁眼");
+        $(".headertop span").html("杀手杀人")
+        $(".headermid span").html("天黑请闭眼,杀手请睁眼");
+        $(".wenzi").html("点击下方玩家头像,标记后杀死");
     } else {
-        $(".headermid span").html("全民投票");
-        $(".wenzi").html("快投，赶下一场");
+        $(".headertop span").html("投票!!")
+        $(".headermid span").html("发言讨论结束,大家请投票");
+        $(".wenzi").html("点击得票数最多人的头像");
     }
 } else {
     $(".headertop span").html("战况表");
