@@ -91,7 +91,7 @@ if (die.length !== 0) {
         } else {
             // 死了一个人(奇数人)的情况
             // 结合html设置的 class="add" 这是给第一个add添加新的 <p>
-            $(".add").eq(i).after(`<p class="addpart">` + a + "号被大家投死，他的身份是" + player[a - 1].name + '</p>')
+            $(".add").eq(i).after(`<p class="addpart">` + a + "号被杀手杀死，他的身份是" + player[a - 1].name + '</p>')
         }
     }
 }

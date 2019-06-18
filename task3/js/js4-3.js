@@ -49,10 +49,10 @@ if (journal.length !== 1) {
 
 // 给亡者上色
 function diecolor() {
-    for (let d = 0; d < player.length; d++) {
-        if (player[d].death == false) {
-            $(".squaretop").eq(d).css("background-color", "red");
-            $(".squaretop").eq(d).css("color", "#fff");
+    for (let i = 0; i < player.length; i++) {
+        if (player[i].death == false) {
+            $(".squaretop").eq(i).css("background-color", "red");
+            $(".squaretop").eq(i).css("color", "#fff");
         }
     }
 }
