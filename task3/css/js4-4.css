@@ -15,7 +15,11 @@ header {
 
 main {
     margin-top: 50px;
+<<<<<<< HEAD
     margin-bottom: 80px;
+=======
+margin-bottom:80px;
+>>>>>>> c770b6516039c3ad29c8720e545cecb6b4e39f5a
     width: 100%;
 }
 
