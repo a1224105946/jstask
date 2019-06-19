@@ -107,6 +107,7 @@ h2 {
     padding: 5px 15px;
     margin-bottom: 5px;
     background: #fff;
+    
 }
 
 .subtract {
@@ -140,6 +141,7 @@ h2 {
     width: 75%;
     height: 3px;
     outline: none;
+    background-color: #fab344;
 }
 
 .slider input[type=range]::-webkit-slider-thumb {
@@ -148,6 +150,7 @@ h2 {
     width: 30px;
     height: 18px;
     background: url(../image/wire.png) no-repeat;
+   
 }
 
 .slider input[type=range]::-webkit-slider-runnable-track {
