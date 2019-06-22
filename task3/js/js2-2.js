@@ -60,24 +60,24 @@ function numbeicalvalue() {
         peopleNum = people;
         var bianliang = arrfunction();
         console.log(bianliang);
-        sessionStorage.setItem("kkk",JSON.stringify(killerNum));
+        sessionStorage.setItem("kkk", JSON.stringify(killerNum));
     }
 }
 
-document.getElementsByClassName("subtract")[0].onclick = function () {
+$(".subtract").click(function () {
     slider.value--;
     // 点击减少  --
     input.value = slider.value;
     // 数值返回给 函数 numbeicalvalue
     numbeicalvalue();
-}
+})
 
-document.getElementsByClassName("add")[0].onclick = function () {
+$(".add").click(function () {
     slider.value++;
     // 点击增加 ++
     input.value = slider.value;
     numbeicalvalue();
-}
+})
 
 function arrfunction() {
     var killarr = new Array(killerNum).fill('杀手');
@@ -102,7 +102,8 @@ function arrfunction() {
 
 
 function jump() {
-   
+    numbeicalvalue();
+    arrfunction();
     sessionStorage.setItem("wdnmd", JSON.stringify(arrfunction()));
     window.location.href = "js3-1.html";
 
